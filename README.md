@@ -1,4 +1,4 @@
-# bblog
+# BBlog
 
 Link of Manual Test Cases Sheet:
 
