@@ -1,0 +1,13 @@
+################################################################################################################################################
+Starting Execution:	[1 out of 2] test cases in the current suite
+Test Method:		[backbase.bblog.tests.GUI_SignInTest.verifyValidSignIn]
+Test Description:	[TC# 2 - Verify Sign In with valid username and password]
+################################################################################################################################################
+[ReportManager] Element Action [click] successfully performed. @20-12-2019 19:27:55.0617 PM
+[ReportManager] Element Action [type] successfully performed. With the following test data [menna_maged@yahoo.com]. @20-12-2019 19:27:59.0248 PM
+[ReportManager] Element Action [type] successfully performed. With the following test data [qa-is-cool]. @20-12-2019 19:28:02.0808 PM
+[ReportManager] Element Action [click] successfully performed. @20-12-2019 19:28:09.0368 PM
+[ReportManager] Element Action [isElementDisplayed] successfully performed. @20-12-2019 19:28:12.0529 PM
+[ReportManager] Assertion [assertEquals] is being performed, with expectedValue [true], actualValue [true], comparisonType [1], and assertionType [true]. @20-12-2019 19:28:12.0534 PM
+[ReportManager] Assertion Passed; actual value [true] does match expected value [true]. @20-12-2019 19:28:12.0538 PM
+[ReportManager] Successfully created attachment [Animated Gif - verifyValidSignIn] @20-12-2019 19:28:15.0642 PM

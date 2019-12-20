@@ -1,0 +1,10 @@
+################################################################################################################################################
+Starting Execution:	[2 out of 2] test cases in the current suite
+Test Method:		[backbase.bblog.tests.GUI_SignUpTest.verifyNavigationToSignUpPage]
+Test Description:	[TC# 10 - Verify that clicking Sign up button will navigate user to Sign up page]
+################################################################################################################################################
+[ReportManager] Element Action [click] successfully performed. @20-12-2019 19:28:46.0369 PM
+[ReportManager] Element Action [getText] successfully performed. With the following test data [Sign in]. @20-12-2019 19:28:49.0514 PM
+[ReportManager] Assertion [assertEquals] is being performed, with expectedValue [Sign Up], actualValue [Sign in], comparisonType [1], and assertionType [true]. @20-12-2019 19:28:49.0514 PM
+[ReportManager] Assertion Failed; actual value [Sign in] does not match expected value [Sign Up]. @20-12-2019 19:28:49.0515 PM
+[ReportManager] Successfully created attachment [Animated Gif - verifyNavigationToSignUpPage] @20-12-2019 19:28:52.0574 PM

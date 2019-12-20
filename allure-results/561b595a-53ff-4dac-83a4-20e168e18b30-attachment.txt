@@ -1,0 +1,13 @@
+################################################################################################################################################
+Starting Execution of a Configuration (Setup or Teardown) Method
+Test Method:		[backbase.bblog.tests.GUI_SignInTest.beforeClass]
+################################################################################################################################################
+[ReportManager] Attempting to run locally on: [Mac-64], [GoogleChrome]. @20-12-2019 19:27:20.0427 PM
+[ReportManager] Identifying OS/Browser combination and selecting the correct driver version automatically. Please note that if a new driver executable will be downloaded it may take some time... @20-12-2019 19:27:20.0431 PM
+[ReportManager] Successfully Opened Google Chrome. @20-12-2019 19:27:22.0612 PM
+[ReportManager] Initial window size: (1200, 927) @20-12-2019 19:27:22.0630 PM
+[ReportManager] Window size after Toolkit: (1680, 971) @20-12-2019 19:27:24.0222 PM
+[ReportManager] Browser Action [maximizeWindow] successfully performed. With the following test data [New screen size is now: (1680, 971)]. @20-12-2019 19:27:30.0825 PM
+[ReportManager] Reading test data from the following file [src/test/resources/testDataFiles/TestDataSheet.xlsx]. @20-12-2019 19:27:37.0638 PM
+[ReportManager] Browser Action [navigateToURL] successfully performed. With the following test data [https://candidatex:qa-is-cool@qa-task.backbasecloud.com/]. @20-12-2019 19:27:42.0789 PM
+[ReportManager] Successfully created attachment [Animated Gif - beforeClass] @20-12-2019 19:27:46.0065 PM

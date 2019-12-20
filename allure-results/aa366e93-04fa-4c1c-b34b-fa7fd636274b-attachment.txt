@@ -1,0 +1,99 @@
+[ReportManager] Preparing Allure Reporting Environment... @20-12-2019 19:27:20.0175 PM
+[ReportManager] Attempting to perform the following command locally. Command: [chmod u+x generate_allure_report.sh] @20-12-2019 19:27:20.0205 PM
+[ReportManager] Command Executed with exit status: [0] @20-12-2019 19:27:20.0222 PM
+[ReportManager] Successfully performed action [performTerminalCommands]. With the following test data [chmod u+x generate_allure_report.sh]. @20-12-2019 19:27:20.0222 PM
+[ReportManager] CLI Response - Terminal Log: @20-12-2019 19:27:20.0223 PM
+
+################################################################################################################################################
+Detected SHAFT Engine Version: [3.1.20190926]
+################################################################################################################################################
+
+################################################################################################################################################
+Starting Execution of a Configuration (Setup or Teardown) Method
+Test Method:		[backbase.bblog.tests.GUI_SignInTest.beforeClass]
+################################################################################################################################################
+[ReportManager] Attempting to run locally on: [Mac-64], [GoogleChrome]. @20-12-2019 19:27:20.0427 PM
+[ReportManager] Identifying OS/Browser combination and selecting the correct driver version automatically. Please note that if a new driver executable will be downloaded it may take some time... @20-12-2019 19:27:20.0431 PM
+[ReportManager] Successfully Opened Google Chrome. @20-12-2019 19:27:22.0612 PM
+[ReportManager] Initial window size: (1200, 927) @20-12-2019 19:27:22.0630 PM
+[ReportManager] Window size after Toolkit: (1680, 971) @20-12-2019 19:27:24.0222 PM
+[ReportManager] Browser Action [maximizeWindow] successfully performed. With the following test data [New screen size is now: (1680, 971)]. @20-12-2019 19:27:30.0825 PM
+[ReportManager] Reading test data from the following file [src/test/resources/testDataFiles/TestDataSheet.xlsx]. @20-12-2019 19:27:37.0638 PM
+[ReportManager] Browser Action [navigateToURL] successfully performed. With the following test data [https://candidatex:qa-is-cool@qa-task.backbasecloud.com/]. @20-12-2019 19:27:42.0789 PM
+[ReportManager] Successfully created attachment [Animated Gif - beforeClass] @20-12-2019 19:27:46.0065 PM
+[ReportManager] Successfully created attachment [SHAFT Engine Logs - Current Method log] @20-12-2019 19:27:46.0066 PM
+
+################################################################################################################################################
+Starting Execution:	[1 out of 2] test cases in the current suite
+Test Method:		[backbase.bblog.tests.GUI_SignInTest.verifyValidSignIn]
+Test Description:	[TC# 2 - Verify Sign In with valid username and password]
+################################################################################################################################################
+[ReportManager] Element Action [click] successfully performed. @20-12-2019 19:27:55.0617 PM
+[ReportManager] Element Action [type] successfully performed. With the following test data [menna_maged@yahoo.com]. @20-12-2019 19:27:59.0248 PM
+[ReportManager] Element Action [type] successfully performed. With the following test data [qa-is-cool]. @20-12-2019 19:28:02.0808 PM
+[ReportManager] Element Action [click] successfully performed. @20-12-2019 19:28:09.0368 PM
+[ReportManager] Element Action [isElementDisplayed] successfully performed. @20-12-2019 19:28:12.0529 PM
+[ReportManager] Assertion [assertEquals] is being performed, with expectedValue [true], actualValue [true], comparisonType [1], and assertionType [true]. @20-12-2019 19:28:12.0534 PM
+[ReportManager] Assertion Passed; actual value [true] does match expected value [true]. @20-12-2019 19:28:12.0538 PM
+[ReportManager] Successfully created attachment [Animated Gif - verifyValidSignIn] @20-12-2019 19:28:15.0642 PM
+[ReportManager] Successfully created attachment [SHAFT Engine Logs - Current Method log] @20-12-2019 19:28:15.0643 PM
+
+################################################################################################################################################
+Starting Execution of a Configuration (Setup or Teardown) Method
+Test Method:		[backbase.bblog.tests.GUI_SignInTest.afterClass]
+################################################################################################################################################
+
+################################################################################################################################################
+Starting Execution of a Configuration (Setup or Teardown) Method
+Test Method:		[backbase.bblog.tests.GUI_SignUpTest.beforeClass]
+################################################################################################################################################
+[ReportManager] Successfully Closed All Browsers. @20-12-2019 19:28:15.0967 PM
+[ReportManager] Attempting to run locally on: [Mac-64], [GoogleChrome]. @20-12-2019 19:28:15.0968 PM
+[ReportManager] Identifying OS/Browser combination and selecting the correct driver version automatically. Please note that if a new driver executable will be downloaded it may take some time... @20-12-2019 19:28:15.0968 PM
+[ReportManager] Successfully Opened Google Chrome. @20-12-2019 19:28:17.0004 PM
+[ReportManager] Initial window size: (1200, 927) @20-12-2019 19:28:17.0012 PM
+[ReportManager] Window size after Toolkit: (1680, 971) @20-12-2019 19:28:17.0238 PM
+[ReportManager] Browser Action [maximizeWindow] successfully performed. With the following test data [New screen size is now: (1680, 971)]. @20-12-2019 19:28:23.0050 PM
+[ReportManager] Browser Action [navigateToURL] successfully performed. With the following test data [https://candidatex:qa-is-cool@qa-task.backbasecloud.com/]. @20-12-2019 19:28:34.0107 PM
+[ReportManager] Successfully created attachment [Animated Gif - beforeClass] @20-12-2019 19:28:37.0217 PM
+[ReportManager] Successfully created attachment [SHAFT Engine Logs - Current Method log] @20-12-2019 19:28:37.0217 PM
+
+################################################################################################################################################
+Starting Execution:	[2 out of 2] test cases in the current suite
+Test Method:		[backbase.bblog.tests.GUI_SignUpTest.verifyNavigationToSignUpPage]
+Test Description:	[TC# 10 - Verify that clicking Sign up button will navigate user to Sign up page]
+################################################################################################################################################
+[ReportManager] Element Action [click] successfully performed. @20-12-2019 19:28:46.0369 PM
+[ReportManager] Element Action [getText] successfully performed. With the following test data [Sign in]. @20-12-2019 19:28:49.0514 PM
+[ReportManager] Assertion [assertEquals] is being performed, with expectedValue [Sign Up], actualValue [Sign in], comparisonType [1], and assertionType [true]. @20-12-2019 19:28:49.0514 PM
+[ReportManager] Assertion Failed; actual value [Sign in] does not match expected value [Sign Up]. @20-12-2019 19:28:49.0515 PM
+[ReportManager] Successfully created attachment [Animated Gif - verifyNavigationToSignUpPage] @20-12-2019 19:28:52.0574 PM
+[ReportManager] Successfully created attachment [SHAFT Engine Logs - Current Method log] @20-12-2019 19:28:52.0575 PM
+
+################################################################################################################################################
+Starting Execution of a Configuration (Setup or Teardown) Method
+Test Method:		[backbase.bblog.tests.GUI_SignUpTest.afterClass]
+################################################################################################################################################
+
+################################################################################################################################################
+Starting Execution of a Configuration (Setup or Teardown) Method
+Test Method:		[com.shaft.tools.io.LogsReporter.closureActivities]
+################################################################################################################################################
+
+################################################################################################################################################
+Test Closure Activities
+################################################################################################################################################
+[ReportManager] Video Recording has been disabled for this test run. Please use the relevant property in the execution.properties file to enable video recording for future test runs. @20-12-2019 19:28:52.0691 PM
+[ReportManager] An Exception Occured with this Message: invalid session id Build info: version: '4.0.0-alpha-2', revision: 'f148142cf8', time: '2019-07-01T20:55:26' System info: host: 'mennas-mbp-2', ip: 'fe80:0:0:0:1434:975b:2fcc:18%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.15.2', java.version: '1.8.0_171' Driver info: org.openqa.selenium.chrome.ChromeDriver Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 79.0.3945.88, chrome: {chromedriverVersion: 79.0.3945.36 (3582db32b3389..., userDataDir: /var/folders/2g/m1q4_frx2r7...}, goog:chromeOptions: {debuggerAddress: localhost:50426}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify} Session ID: c79d9d8a59e29e02196bae0410f21320. @20-12-2019 19:28:52.0697 PM
+[ReportManager] Successfully created attachment [Exception Stack Trace - org.openqa.selenium.NoSuchSessionException] @20-12-2019 19:28:52.0698 PM
+[ReportManager] An Exception Occured with this Message: invalid session id Build info: version: '4.0.0-alpha-2', revision: 'f148142cf8', time: '2019-07-01T20:55:26' System info: host: 'mennas-mbp-2', ip: 'fe80:0:0:0:1434:975b:2fcc:18%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.15.2', java.version: '1.8.0_171' Driver info: org.openqa.selenium.chrome.ChromeDriver Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 79.0.3945.88, chrome: {chromedriverVersion: 79.0.3945.36 (3582db32b3389..., userDataDir: /var/folders/2g/m1q4_frx2r7...}, goog:chromeOptions: {debuggerAddress: localhost:50426}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify} Session ID: c79d9d8a59e29e02196bae0410f21320. @20-12-2019 19:28:52.0702 PM
+[ReportManager] Successfully created attachment [Exception Stack Trace - org.openqa.selenium.NoSuchSessionException] @20-12-2019 19:28:52.0703 PM
+[ReportManager] Successfully Closed All Browsers. @20-12-2019 19:28:52.0722 PM
+[ReportManager] Issue Summary: Total Issues = 1, New issues for Failed Tests = 1, Open issues for Passed Tests = 0, Open issues for Failed Tests = 0. Kindly check the attached Issue details. @20-12-2019 19:28:52.0723 PM
+[ReportManager] Successfully created attachment [SHAFT Engine Logs - Issues log CSV] @20-12-2019 19:28:52.0723 PM
+[ReportManager] Successfully created attachment [SHAFT Engine Logs - Execution log] @20-12-2019 19:28:52.0724 PM
+
+################################################################################################################################################
+This test run was powered by SHAFT Engine Version: [3.1.20190926]
+SHAFT Engine is licensed under the MIT License: [https://github.com/MohabMohie/SHAFT_ENGINE/blob/master/LICENSE].
+################################################################################################################################################
