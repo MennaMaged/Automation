@@ -1,0 +1,10 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+
+<suite name="GUI" verbose="10">
+	<test name="GUI Tests">
+		<classes>
+			<class name="backbase.bblog.tests.GUI_SignInTest"></class>
+			<class name="backbase.bblog.tests.GUI_SignUpTest"></class>
+		</classes>
+	</test>
+</suite>

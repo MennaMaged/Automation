@@ -1,0 +1,138 @@
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+  xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+  <modelVersion>4.0.0</modelVersion>
+
+  <groupId>com.backbase</groupId>
+  <artifactId>bblogQA</artifactId>
+  <version>0.0.1</version>
+
+  <properties>
+  
+  <propertiesFolderPath>src/test/resources/Properties/</propertiesFolderPath>
+  <shaft_engine.version>3.1.20190926</shaft_engine.version>
+		<encoding.type>UTF-8</encoding.type>
+		<jdk.version>1.8</jdk.version>
+		<maven-resources-plugin.version>3.1.0</maven-resources-plugin.version>
+		<maven-compiler-plugin.version>3.8.0</maven-compiler-plugin.version>
+		<maven-surefire-plugin.version>2.20</maven-surefire-plugin.version> <!-- DO NOT UPDATE -->
+		<aspectj.version>1.8.10</aspectj.version> <!-- DO NOT UPDATE -->
+		<ojdbc8.version>19.3.0.0</ojdbc8.version>
+
+  </properties>
+
+  <dependencies>
+    <dependency>
+			<groupId>io.github.mohabmohie</groupId>
+			<artifactId>SHAFT_ENGINE</artifactId>
+			<version>${shaft_engine.version}</version>
+			<type>pom</type>
+		</dependency>
+		<dependency>
+			<groupId>io.github.mohabmohie</groupId>
+			<artifactId>SHAFT_ENGINE</artifactId>
+			<version>${shaft_engine.version}</version>
+			<type>jar</type>
+		</dependency>
+		<dependency>
+			<groupId>io.github.mohabmohie</groupId>
+			<artifactId>SHAFT_ENGINE</artifactId>
+			<version>${shaft_engine.version}</version>
+			<type>jar</type>
+			<classifier>javadoc</classifier>
+		</dependency>
+		<dependency>
+			<groupId>io.github.mohabmohie</groupId>
+			<artifactId>SHAFT_ENGINE</artifactId>
+			<version>${shaft_engine.version}</version>
+			<type>jar</type>
+			<classifier>sources</classifier>
+		</dependency>
+  </dependencies>
+  <build>
+		<pluginManagement>
+			<plugins>
+				<plugin>
+					<groupId>org.apache.maven.plugins</groupId>
+					<artifactId>maven-resources-plugin</artifactId>
+					<version>${maven-resources-plugin.version}</version>
+					<configuration>
+						<encoding>${encoding.type}</encoding>
+						<inputEncoding>${encoding.type}</inputEncoding>
+						<outputEncoding>${encoding.type}</outputEncoding>
+					</configuration>
+				</plugin>
+				<plugin>
+					<groupId>org.apache.maven.plugins</groupId>
+					<artifactId>maven-compiler-plugin</artifactId>
+					<version>${maven-compiler-plugin.version}</version>
+					<configuration>
+						<source>${jdk.version}</source>
+						<target>${jdk.version}</target>
+						<encoding>${encoding.type}</encoding>
+						<inputEncoding>${encoding.type}</inputEncoding>
+						<outputEncoding>${encoding.type}</outputEncoding>
+					</configuration>
+				</plugin>
+				<plugin>
+					<groupId>org.apache.maven.plugins</groupId>
+					<artifactId>maven-surefire-plugin</artifactId>
+					<version>${maven-surefire-plugin.version}</version>
+					<configuration>
+						<systemPropertyVariables>
+							<shaftEngineVersion>${shaft_engine.version}</shaftEngineVersion>
+							<propertiesFolderPath>${propertiesFolderPath}</propertiesFolderPath>
+						</systemPropertyVariables>
+						<configfailurepolicy>continue</configfailurepolicy>
+						<testFailureIgnore>true</testFailureIgnore>
+						<!-- <suiteXmlFiles> -->
+						<!-- <suiteXmlFile>src\test\resources\TestSuites\${testSuite.name}.xml</suiteXmlFile> -->
+						<!-- </suiteXmlFiles> -->
+						<encoding>${encoding.type}</encoding>
+						<inputEncoding>${encoding.type}</inputEncoding>
+						<outputEncoding>${encoding.type}</outputEncoding>
+						<argLine>
+							-javaagent:"${settings.localRepository}/org/aspectj/aspectjweaver/${aspectj.version}/aspectjweaver-${aspectj.version}.jar"
+						</argLine>
+						<properties>
+							<property>
+								<name>usedefaultlisteners</name>
+								<value>false</value>
+							</property>
+							<property>
+								<name>listener</name>
+								<value>com.shaft.tools.listeners.SuiteListener,com.shaft.tools.listeners.InvokedMethodListener,com.shaft.tools.listeners.AlterSuiteListener</value>
+							</property>
+						</properties>
+					</configuration>
+					<dependencies>
+						<dependency>
+							<groupId>org.aspectj</groupId>
+							<artifactId>aspectjweaver</artifactId>
+							<version>${aspectj.version}</version>
+						</dependency>
+					</dependencies>
+				</plugin>
+			</plugins>
+		</pluginManagement>
+	</build>
+	<repositories>
+		<repository>
+			<snapshots>
+				<enabled>false</enabled>
+			</snapshots>
+			<id>bintray-mohabmohie-SHAFT</id>
+			<name>bintray</name>
+			<url>https://dl.bintray.com/mohabmohie/SHAFT</url>
+		</repository>
+	</repositories>
+	<pluginRepositories>
+		<pluginRepository>
+			<snapshots>
+				<enabled>false</enabled>
+			</snapshots>
+			<id>bintray-mohabmohie-SHAFT</id>
+			<name>bintray-plugins</name>
+			<url>https://dl.bintray.com/mohabmohie/SHAFT</url>
+		</pluginRepository>
+	</pluginRepositories>
+</project>
