@@ -4,6 +4,10 @@ Link of Manual Test Cases Sheet:
 
 https://docs.google.com/spreadsheets/d/1XVvQQTZxI49bJ_o7_NEKdj7-FUVQl4pHy6qXzJc6h54/edit?usp=sharing
 
+Link of Evaluation Report:
+
+https://docs.google.com/document/d/1uEkHYvm2Lbmin-vzxvqxzukKdVZL0635s-4TUOgIIzs/edit?usp=sharing
+
 # Prerequisites
 - Web brwoser (chrome is prefered)
 - Eclipse IDE
