@@ -9,12 +9,14 @@
 - In eclipe: File > New > Import > Git > Projects from Git > Clone URI
 - In Source Git Repository window, paste this text in the URI: https://github.com/MennaMaged/bblog.git
 - Proceed till the project is imported on eclipse
+- Switch to Facebook Repo 
 - Right Click on the project and do the following:
   - Run As > Maven Clean
   - Run As > Maven Install
   - Team > Update project > check for force update
   - Copy two folders in this link and put them in the target project
     https://drive.google.com/drive/folders/17e8eVPoK46KTYcIGatzc0hugYXf_vP7I?usp=sharing
+
   
 # To Execute All Test Cases
 - Go to this path (src/test/resources/testSuites)
