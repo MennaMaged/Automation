@@ -3,8 +3,7 @@
 <suite name="GUI" verbose="10">
 	<test name="GUI Tests">
 		<classes>
-			<class name="backbase.bblog.tests.GUI_SignInTest"></class>
-			<class name="backbase.bblog.tests.GUI_SignUpTest"></class>
+			<class name="automation.task.tests.GUI_LoginTest"></class>
 		</classes>
 	</test>
 </suite>
