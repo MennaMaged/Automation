@@ -1,0 +1,5 @@
+################################################################################################################################################
+Starting Execution of a Configuration (Setup or Teardown) Method
+Test Method:		[automation.task.tests.GUI_LoginTest.beforeClass]
+################################################################################################################################################
+[ReportManager] Reading test data from the following file [src/test/resources/testDataFiles/TestDataSheet.xlsx]. @28-10-2020 23:59:48.0551 PM

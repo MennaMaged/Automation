@@ -1,0 +1,90 @@
+[ReportManager] Preparing Allure Reporting Environment... @28-10-2020 23:59:47.0776 PM
+[ReportManager] Attempting to perform the following command locally. Command: [chmod u+x generate_allure_report.sh] @28-10-2020 23:59:47.0791 PM
+[ReportManager] Command Executed with exit status: [0] @28-10-2020 23:59:47.0801 PM
+[ReportManager] Successfully performed action [performTerminalCommands]. With the following test data [chmod u+x generate_allure_report.sh]. @28-10-2020 23:59:47.0801 PM
+[ReportManager] CLI Response - Terminal Log: @28-10-2020 23:59:47.0801 PM
+
+################################################################################################################################################
+Detected SHAFT Engine Version: [3.1.20190926]
+################################################################################################################################################
+
+################################################################################################################################################
+Starting Execution of a Configuration (Setup or Teardown) Method
+Test Method:		[automation.task.tests.GUI_LoginTest.beforeClass]
+################################################################################################################################################
+[ReportManager] Reading test data from the following file [src/test/resources/testDataFiles/TestDataSheet.xlsx]. @28-10-2020 23:59:48.0551 PM
+[ReportManager] Successfully created attachment [SHAFT Engine Logs - Current Method log] @28-10-2020 23:59:48.0556 PM
+
+################################################################################################################################################
+Starting Execution of a Configuration (Setup or Teardown) Method
+Test Method:		[automation.task.tests.GUI_LoginTest.beforeMethod]
+################################################################################################################################################
+[ReportManager] Attempting to run locally on: [Mac-64], [GoogleChrome]. @28-10-2020 23:59:48.0612 PM
+[ReportManager] Identifying OS/Browser combination and selecting the correct driver version automatically. Please note that if a new driver executable will be downloaded it may take some time... @28-10-2020 23:59:48.0614 PM
+[ReportManager] Successfully Opened Google Chrome. @28-10-2020 23:59:54.0900 PM
+[ReportManager] Initial window size: (1200, 898) @28-10-2020 23:59:54.0914 PM
+[ReportManager] Window size after Toolkit: (1680, 948) @28-10-2020 23:59:56.0500 PM
+[ReportManager] Browser Action [maximizeWindow] successfully performed. With the following test data [New screen size is now: (1680, 948)]. @29-10-2020 00:00:00.0225 AM
+[ReportManager] Browser Action [navigateToURL] successfully performed. With the following test data [https://www.facebook.com/]. @29-10-2020 00:00:11.0015 AM
+[ReportManager] Successfully created attachment [Animated Gif - beforeMethod] @29-10-2020 00:00:12.0873 AM
+[ReportManager] Successfully created attachment [SHAFT Engine Logs - Current Method log] @29-10-2020 00:00:12.0873 AM
+
+################################################################################################################################################
+Starting Execution:	[1 out of 2] test cases in the current suite
+Test Method:		[automation.task.tests.GUI_LoginTest.verifyInvalidLogin]
+Test Description:	[TC# 2 - Verify Login with invalid username and valid password]
+################################################################################################################################################
+
+################################################################################################################################################
+Starting Execution of a Configuration (Setup or Teardown) Method
+Test Method:		[automation.task.tests.GUI_LoginTest.afterMethod]
+################################################################################################################################################
+
+################################################################################################################################################
+Starting Execution of a Configuration (Setup or Teardown) Method
+Test Method:		[automation.task.tests.GUI_LoginTest.beforeMethod]
+################################################################################################################################################
+[ReportManager] Successfully Closed All Browsers. @29-10-2020 00:00:13.0155 AM
+[ReportManager] Attempting to run locally on: [Mac-64], [GoogleChrome]. @29-10-2020 00:00:13.0156 AM
+[ReportManager] Identifying OS/Browser combination and selecting the correct driver version automatically. Please note that if a new driver executable will be downloaded it may take some time... @29-10-2020 00:00:13.0156 AM
+[ReportManager] Successfully Opened Google Chrome. @29-10-2020 00:00:18.0982 AM
+[ReportManager] Initial window size: (1200, 901) @29-10-2020 00:00:18.0990 AM
+[ReportManager] Window size after Toolkit: (1680, 945) @29-10-2020 00:00:19.0209 AM
+[ReportManager] Browser Action [maximizeWindow] successfully performed. With the following test data [New screen size is now: (1680, 945)]. @29-10-2020 00:00:22.0479 AM
+[ReportManager] Browser Action [navigateToURL] successfully performed. With the following test data [https://www.facebook.com/]. @29-10-2020 00:00:31.0967 AM
+[ReportManager] Successfully created attachment [Animated Gif - beforeMethod] @29-10-2020 00:00:33.0706 AM
+[ReportManager] Successfully created attachment [SHAFT Engine Logs - Current Method log] @29-10-2020 00:00:33.0707 AM
+
+################################################################################################################################################
+Starting Execution:	[2 out of 2] test cases in the current suite
+Test Method:		[automation.task.tests.GUI_LoginTest.verifyValidLogin]
+Test Description:	[TC# 1 - Verify Login with valid username and password]
+################################################################################################################################################
+
+################################################################################################################################################
+Starting Execution of a Configuration (Setup or Teardown) Method
+Test Method:		[automation.task.tests.GUI_LoginTest.afterMethod]
+################################################################################################################################################
+
+################################################################################################################################################
+Starting Execution of a Configuration (Setup or Teardown) Method
+Test Method:		[com.shaft.tools.io.LogsReporter.closureActivities]
+################################################################################################################################################
+
+################################################################################################################################################
+Test Closure Activities
+################################################################################################################################################
+[ReportManager] Video Recording has been disabled for this test run. Please use the relevant property in the execution.properties file to enable video recording for future test runs. @29-10-2020 00:00:33.0796 AM
+[ReportManager] An Exception Occured with this Message: invalid session id Build info: version: '4.0.0-alpha-2', revision: 'f148142cf8', time: '2019-07-01T20:55:26' System info: host: 'mennas-mbp-2', ip: 'fe80:0:0:0:1833:2064:6a33:2d20%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.15.7', java.version: '1.8.0_171' Driver info: org.openqa.selenium.chrome.ChromeDriver Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 86.0.4240.111, chrome: {chromedriverVersion: 86.0.4240.22 (398b0743353ff..., userDataDir: /var/folders/2g/m1q4_frx2r7...}, goog:chromeOptions: {debuggerAddress: localhost:51459}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true} Session ID: 9ee5e1cdf9f42fa94b4b1a5ab57a863d. @29-10-2020 00:00:33.0827 AM
+[ReportManager] Successfully created attachment [Exception Stack Trace - org.openqa.selenium.NoSuchSessionException] @29-10-2020 00:00:33.0827 AM
+[ReportManager] An Exception Occured with this Message: invalid session id Build info: version: '4.0.0-alpha-2', revision: 'f148142cf8', time: '2019-07-01T20:55:26' System info: host: 'mennas-mbp-2', ip: 'fe80:0:0:0:1833:2064:6a33:2d20%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.15.7', java.version: '1.8.0_171' Driver info: org.openqa.selenium.chrome.ChromeDriver Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 86.0.4240.111, chrome: {chromedriverVersion: 86.0.4240.22 (398b0743353ff..., userDataDir: /var/folders/2g/m1q4_frx2r7...}, goog:chromeOptions: {debuggerAddress: localhost:51459}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true} Session ID: 9ee5e1cdf9f42fa94b4b1a5ab57a863d. @29-10-2020 00:00:33.0831 AM
+[ReportManager] Successfully created attachment [Exception Stack Trace - org.openqa.selenium.NoSuchSessionException] @29-10-2020 00:00:33.0832 AM
+[ReportManager] Successfully Closed All Browsers. @29-10-2020 00:00:33.0849 AM
+[ReportManager] Issue Summary: Total Issues = 2, New issues for Failed Tests = 2, Open issues for Passed Tests = 0, Open issues for Failed Tests = 0. Kindly check the attached Issue details. @29-10-2020 00:00:33.0850 AM
+[ReportManager] Successfully created attachment [SHAFT Engine Logs - Issues log CSV] @29-10-2020 00:00:33.0850 AM
+[ReportManager] Successfully created attachment [SHAFT Engine Logs - Execution log] @29-10-2020 00:00:33.0850 AM
+
+################################################################################################################################################
+This test run was powered by SHAFT Engine Version: [3.1.20190926]
+SHAFT Engine is licensed under the MIT License: [https://github.com/MohabMohie/SHAFT_ENGINE/blob/master/LICENSE].
+################################################################################################################################################

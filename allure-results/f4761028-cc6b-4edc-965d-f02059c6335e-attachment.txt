@@ -1,0 +1,8 @@
+################################################################################################################################################
+Starting Execution:	[2 out of 2] test cases in the current suite
+Test Method:		[automation.task.tests.GUI_LoginTest.verifyValidLogin]
+Test Description:	[TC# 1 - Verify Login with valid username and password]
+################################################################################################################################################
+[ReportManager] [identifyUniqueElement] failed. With the following test data [zero elements found matching this locator "By.id: email".]. @28-10-2020 23:54:23.0963 PM
+[ReportManager] Successfully created attachment [Screenshot - 1603922058844_verifyValidLogin_identifyUniqueElement_failed] @28-10-2020 23:54:23.0965 PM
+[ReportManager] Successfully created attachment [Animated Gif - verifyValidLogin] @28-10-2020 23:54:25.0976 PM

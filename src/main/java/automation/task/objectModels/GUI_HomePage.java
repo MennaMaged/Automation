@@ -17,22 +17,13 @@ public class GUI_HomePage {
 	}
 
 	///// Elements /////
-	private By signInLink = By.xpath("//a[@href='#/login']");
-	private By signUpLink = By.xpath("//a[@href='#/register']");
-	private By yourFeedLabel = By.xpath("//a[text()='Your Feed']");
+	private By welcomeLabel = By.id("pagelet_welcome");
 
 	///// Functions /////
 
-	public void navigateToSignInPage() {
-		ElementActions.click(driver, signInLink);
-	}
-	
-	public void navigateToSignUpPage() {
-		ElementActions.click(driver, signUpLink);
-	}
 
 	public void assertUserIsLoggedIn() {
-		Assertions.assertEquals(true, ElementActions.isElementDisplayed(driver, yourFeedLabel),
+		Assertions.assertEquals(true, ElementActions.isElementDisplayed(driver, welcomeLabel),
 				AssertionComparisonType.EQUALS, AssertionType.POSITIVE);
 	}
 

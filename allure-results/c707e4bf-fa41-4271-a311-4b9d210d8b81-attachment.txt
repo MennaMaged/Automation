@@ -1,0 +1,12 @@
+################################################################################################################################################
+Starting Execution:	[1 out of 2] test cases in the current suite
+Test Method:		[automation.task.tests.GUI_LoginTest.verifyInvalidLogin]
+Test Description:	[TC# 2 - Verify Login with invalid username and valid password]
+################################################################################################################################################
+[ReportManager] Element Action [type] successfully performed. With the following test data [test_safjgrk_user@tfbnw.net]. @29-10-2020 00:04:39.0588 AM
+[ReportManager] Element Action [type] successfully performed. With the following test data [test@123]. @29-10-2020 00:04:41.0573 AM
+[ReportManager] Element Action [click] successfully performed. @29-10-2020 00:04:52.0695 AM
+[ReportManager] Element Action [isElementDisplayed] successfully performed. @29-10-2020 00:04:54.0823 AM
+[ReportManager] Assertion [assertEquals] is being performed, with expectedValue [true], actualValue [true], comparisonType [1], and assertionType [true]. @29-10-2020 00:04:54.0825 AM
+[ReportManager] Assertion Passed; actual value [true] does match expected value [true]. @29-10-2020 00:04:54.0827 AM
+[ReportManager] Successfully created attachment [Animated Gif - verifyInvalidLogin] @29-10-2020 00:04:56.0764 AM

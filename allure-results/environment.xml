@@ -5,10 +5,6 @@
     <value>3.1.20190926</value>
   </parameter>
   <parameter>
-    <key>username</key>
-    <value>candidatex</value>
-  </parameter>
-  <parameter>
     <key>animatedGif_frameDelay</key>
     <value>500</value>
   </parameter>
@@ -57,6 +53,10 @@
     <value>30</value>
   </parameter>
   <parameter>
+    <key>baseURL</key>
+    <value>https://www.facebook.com/</value>
+  </parameter>
+  <parameter>
     <key>apiConnectionManagerTimeout</key>
     <value>60</value>
   </parameter>
@@ -81,16 +81,8 @@
     <value>src/test/resources/Properties/</value>
   </parameter>
   <parameter>
-    <key>authenticatedURL</key>
-    <value>https://candidatex:qa-is-cool@qa-task.backbasecloud.com/</value>
-  </parameter>
-  <parameter>
     <key>databaseQueryTimeout</key>
     <value>60</value>
-  </parameter>
-  <parameter>
-    <key>bblogURL</key>
-    <value>https://qa-task.backbasecloud.com/</value>
   </parameter>
   <parameter>
     <key>apiConnectionTimeout</key>
@@ -179,10 +171,6 @@
   <parameter>
     <key>shellSessionTimeout</key>
     <value>30</value>
-  </parameter>
-  <parameter>
-    <key>password</key>
-    <value>qa-is-cool</value>
   </parameter>
   <parameter>
     <key>automaticallyCleanAllureResultsDirectoryBeforeExecution</key>

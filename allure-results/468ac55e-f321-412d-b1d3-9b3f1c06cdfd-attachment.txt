@@ -1,0 +1,63 @@
+[ReportManager] Preparing Allure Reporting Environment... @28-10-2020 22:44:52.0605 PM
+[ReportManager] Attempting to perform the following command locally. Command: [chmod u+x generate_allure_report.sh] @28-10-2020 22:44:52.0625 PM
+[ReportManager] Command Executed with exit status: [0] @28-10-2020 22:44:52.0641 PM
+[ReportManager] Successfully performed action [performTerminalCommands]. With the following test data [chmod u+x generate_allure_report.sh]. @28-10-2020 22:44:52.0641 PM
+[ReportManager] CLI Response - Terminal Log: @28-10-2020 22:44:52.0641 PM
+
+################################################################################################################################################
+Detected SHAFT Engine Version: [3.1.20190926]
+################################################################################################################################################
+
+################################################################################################################################################
+Starting Execution of a Configuration (Setup or Teardown) Method
+Test Method:		[automation.task.tests.GUI_SignInTest.beforeClass]
+################################################################################################################################################
+[ReportManager] Attempting to run locally on: [Mac-64], [GoogleChrome]. @28-10-2020 22:44:52.0812 PM
+[ReportManager] Identifying OS/Browser combination and selecting the correct driver version automatically. Please note that if a new driver executable will be downloaded it may take some time... @28-10-2020 22:44:52.0815 PM
+[ReportManager] Successfully Opened Google Chrome. @28-10-2020 22:44:59.0627 PM
+[ReportManager] Initial window size: (1200, 898) @28-10-2020 22:44:59.0641 PM
+[ReportManager] Window size after Toolkit: (1680, 948) @28-10-2020 22:45:02.0154 PM
+[ReportManager] Browser Action [maximizeWindow] successfully performed. With the following test data [New screen size is now: (1680, 948)]. @28-10-2020 22:45:05.0778 PM
+[ReportManager] Reading test data from the following file [src/test/resources/testDataFiles/TestDataSheet.xlsx]. @28-10-2020 22:45:09.0625 PM
+[ReportManager] Browser Action [navigateToURL] successfully performed. With the following test data [https://www.facebook.com/]. @28-10-2020 22:45:23.0781 PM
+[ReportManager] Successfully created attachment [Animated Gif - beforeClass] @28-10-2020 22:45:25.0661 PM
+[ReportManager] Successfully created attachment [SHAFT Engine Logs - Current Method log] @28-10-2020 22:45:25.0662 PM
+
+################################################################################################################################################
+Starting Execution:	[1 out of 1] test cases in the current suite
+Test Method:		[automation.task.tests.GUI_SignInTest.verifyValidSignIn]
+Test Description:	[TC# 2 - Verify Sign In with valid username and password]
+################################################################################################################################################
+[ReportManager] An Exception Occured with this Message: no such window: window was already closed   (Session info: chrome=86.0.4240.111) Build info: version: '4.0.0-alpha-2', revision: 'f148142cf8', time: '2019-07-01T20:55:26' System info: host: 'mennas-mbp-2', ip: 'fe80:0:0:0:1833:2064:6a33:2d20%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.15.7', java.version: '1.8.0_171' Driver info: org.openqa.selenium.chrome.ChromeDriver Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 86.0.4240.111, chrome: {chromedriverVersion: 86.0.4240.22 (398b0743353ff..., userDataDir: /var/folders/2g/m1q4_frx2r7...}, goog:chromeOptions: {debuggerAddress: localhost:64972}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true} Session ID: 209dad9481754e377472c283148c2411. @28-10-2020 22:45:51.0697 PM
+[ReportManager] Successfully created attachment [Exception Stack Trace - org.openqa.selenium.NoSuchWindowException] @28-10-2020 22:45:51.0698 PM
+[ReportManager] [identifyUniqueElement] failed. With the following test data [zero elements found matching this locator "By.xpath: //a[@href='#/login']".]. @28-10-2020 22:45:51.0698 PM
+[ReportManager] Successfully created attachment [SHAFT Engine Logs - Current Method log] @28-10-2020 22:45:51.0703 PM
+
+################################################################################################################################################
+Starting Execution of a Configuration (Setup or Teardown) Method
+Test Method:		[automation.task.tests.GUI_SignInTest.afterClass]
+################################################################################################################################################
+
+################################################################################################################################################
+Starting Execution of a Configuration (Setup or Teardown) Method
+Test Method:		[com.shaft.tools.io.LogsReporter.closureActivities]
+################################################################################################################################################
+
+################################################################################################################################################
+Test Closure Activities
+################################################################################################################################################
+[ReportManager] Video Recording has been disabled for this test run. Please use the relevant property in the execution.properties file to enable video recording for future test runs. @28-10-2020 22:45:51.0830 PM
+[ReportManager] An Exception Occured with this Message: invalid argument: log type 'performance' not found   (Session info: chrome=86.0.4240.111) Build info: version: '4.0.0-alpha-2', revision: 'f148142cf8', time: '2019-07-01T20:55:26' System info: host: 'mennas-mbp-2', ip: 'fe80:0:0:0:1833:2064:6a33:2d20%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.15.7', java.version: '1.8.0_171' Driver info: org.openqa.selenium.chrome.ChromeDriver Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 86.0.4240.111, chrome: {chromedriverVersion: 86.0.4240.22 (398b0743353ff..., userDataDir: /var/folders/2g/m1q4_frx2r7...}, goog:chromeOptions: {debuggerAddress: localhost:64972}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true} Session ID: 209dad9481754e377472c283148c2411. @28-10-2020 22:45:51.0834 PM
+[ReportManager] Successfully created attachment [Exception Stack Trace - org.openqa.selenium.InvalidArgumentException] @28-10-2020 22:45:51.0835 PM
+[ReportManager] Successfully created attachment [Selenium WebDriver Logs - Driver Logs for [GoogleChrome_1603917892815]] @28-10-2020 22:45:51.0839 PM
+[ReportManager] An Exception Occured with this Message: no such window: target window already closed from unknown error: web view not found   (Session info: chrome=86.0.4240.111) Build info: version: '4.0.0-alpha-2', revision: 'f148142cf8', time: '2019-07-01T20:55:26' System info: host: 'mennas-mbp-2', ip: 'fe80:0:0:0:1833:2064:6a33:2d20%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.15.7', java.version: '1.8.0_171' Driver info: org.openqa.selenium.chrome.ChromeDriver Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 86.0.4240.111, chrome: {chromedriverVersion: 86.0.4240.22 (398b0743353ff..., userDataDir: /var/folders/2g/m1q4_frx2r7...}, goog:chromeOptions: {debuggerAddress: localhost:64972}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true} Session ID: 209dad9481754e377472c283148c2411. @28-10-2020 22:45:51.0843 PM
+[ReportManager] Successfully created attachment [Exception Stack Trace - org.openqa.selenium.NoSuchWindowException] @28-10-2020 22:45:51.0843 PM
+[ReportManager] Successfully Closed All Browsers. @28-10-2020 22:45:51.0948 PM
+[ReportManager] Issue Summary: Total Issues = 1, New issues for Failed Tests = 1, Open issues for Passed Tests = 0, Open issues for Failed Tests = 0. Kindly check the attached Issue details. @28-10-2020 22:45:51.0949 PM
+[ReportManager] Successfully created attachment [SHAFT Engine Logs - Issues log CSV] @28-10-2020 22:45:51.0950 PM
+[ReportManager] Successfully created attachment [SHAFT Engine Logs - Execution log] @28-10-2020 22:45:51.0950 PM
+
+################################################################################################################################################
+This test run was powered by SHAFT Engine Version: [3.1.20190926]
+SHAFT Engine is licensed under the MIT License: [https://github.com/MohabMohie/SHAFT_ENGINE/blob/master/LICENSE].
+################################################################################################################################################

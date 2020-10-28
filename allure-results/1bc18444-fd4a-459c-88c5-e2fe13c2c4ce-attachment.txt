@@ -1,0 +1,10 @@
+################################################################################################################################################
+Starting Execution:	[2 out of 2] test cases in the current suite
+Test Method:		[automation.task.tests.GUI_LoginTest.verifyValidLogin]
+Test Description:	[TC# 1 - Verify Login with valid username and password]
+################################################################################################################################################
+[ReportManager] Element Action [type] successfully performed. With the following test data [test_safjgrk_user@tfbnw.net]. @28-10-2020 23:51:59.0143 PM
+[ReportManager] Element Action [type] successfully performed. With the following test data [test@123]. @28-10-2020 23:52:01.0118 PM
+[ReportManager] [identifyUniqueElement] failed. With the following test data [zero elements found matching this locator "By.id: u_0_b".]. @28-10-2020 23:52:29.0233 PM
+[ReportManager] Successfully created attachment [Screenshot - 1603921947225_verifyValidLogin_identifyUniqueElement_failed] @28-10-2020 23:52:29.0234 PM
+[ReportManager] Successfully created attachment [Animated Gif - verifyValidLogin] @28-10-2020 23:52:31.0120 PM

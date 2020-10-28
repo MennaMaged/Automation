@@ -1,0 +1,13 @@
+################################################################################################################################################
+Starting Execution of a Configuration (Setup or Teardown) Method
+Test Method:		[automation.task.tests.GUI_LoginTest.beforeClass]
+################################################################################################################################################
+[ReportManager] Attempting to run locally on: [Mac-64], [GoogleChrome]. @28-10-2020 23:29:50.0733 PM
+[ReportManager] Identifying OS/Browser combination and selecting the correct driver version automatically. Please note that if a new driver executable will be downloaded it may take some time... @28-10-2020 23:29:50.0738 PM
+[ReportManager] Successfully Opened Google Chrome. @28-10-2020 23:29:57.0493 PM
+[ReportManager] Initial window size: (1200, 901) @28-10-2020 23:29:57.0507 PM
+[ReportManager] Window size after Toolkit: (1680, 951) @28-10-2020 23:29:59.0133 PM
+[ReportManager] Browser Action [maximizeWindow] successfully performed. With the following test data [New screen size is now: (1680, 951)]. @28-10-2020 23:30:02.0988 PM
+[ReportManager] Reading test data from the following file [src/test/resources/testDataFiles/TestDataSheet.xlsx]. @28-10-2020 23:30:06.0794 PM
+[ReportManager] Browser Action [navigateToURL] successfully performed. With the following test data [https://www.facebook.com/]. @28-10-2020 23:30:12.0888 PM
+[ReportManager] Successfully created attachment [Animated Gif - beforeClass] @28-10-2020 23:30:14.0758 PM
