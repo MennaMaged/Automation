@@ -7,7 +7,7 @@
 
 # How to Import Project
 - In eclipe: File > New > Import > Git > Projects from Git > Clone URI
-- In Source Git Repository window, paste this text in the URI: https://github.com/MennaMaged/bblog.git
+- In Source Git Repository window, paste this text in the URI: https://github.com/MennaMaged/Automation.git
 - Proceed till the project is imported on eclipse
 - Switch to Facebook Repo 
 - Right Click on the project and do the following:
