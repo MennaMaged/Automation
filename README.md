@@ -13,7 +13,9 @@
   - Run As > Maven Clean
   - Run As > Maven Install
   - Team > Update project > check for force update
-
+  - Copy two folders in this link and put them in the target project
+    https://drive.google.com/drive/folders/17e8eVPoK46KTYcIGatzc0hugYXf_vP7I?usp=sharing
+  
 # To Execute All Test Cases
 - Go to this path (src/test/resources/testSuites)
 - Right click on this file (GUI_testSuite.xml)
@@ -23,4 +25,4 @@
 When execution is done successfully, go to this file (generate_allure_report.sh) in the project root and open it using terminal, The report should be opened in the browser, click on show all to review all TCs results. You can check the result of each step & see the attached gif\screenshot
 
 # The Result of Test Cases
-Two test cases will be executed, one should be passed and one should be failed
+Two test cases will be executed, both should be passed
