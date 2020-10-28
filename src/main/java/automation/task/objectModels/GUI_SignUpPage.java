@@ -1,4 +1,4 @@
-package backbase.bblog.objectModels;
+package automation.task.objectModels;
 
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;

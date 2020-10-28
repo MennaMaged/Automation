@@ -1,4 +1,4 @@
-package backbase.bblog.tests;
+package automation.task.tests;
 
 import org.openqa.selenium.WebDriver;
 import org.testng.annotations.AfterClass;
@@ -8,8 +8,8 @@ import org.testng.annotations.Test;
 import com.shaft.gui.browser.BrowserActions;
 import com.shaft.gui.browser.BrowserFactory;
 
-import backbase.bblog.objectModels.GUI_HomePage;
-import backbase.bblog.objectModels.GUI_SignUpPage;
+import automation.task.objectModels.GUI_HomePage;
+import automation.task.objectModels.GUI_SignUpPage;
 import io.qameta.allure.Description;
 
 public class GUI_SignUpTest {

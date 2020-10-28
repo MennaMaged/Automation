@@ -1,4 +1,4 @@
-package backbase.bblog.tests;
+package automation.task.tests;
 
 import org.openqa.selenium.WebDriver;
 import org.testng.annotations.AfterClass;
@@ -9,8 +9,8 @@ import com.shaft.gui.browser.BrowserActions;
 import com.shaft.gui.browser.BrowserFactory;
 import com.shaft.tools.io.ExcelFileManager;
 
-import backbase.bblog.objectModels.GUI_HomePage;
-import backbase.bblog.objectModels.GUI_SignInPage;
+import automation.task.objectModels.GUI_HomePage;
+import automation.task.objectModels.GUI_SignInPage;
 import io.qameta.allure.Description;
 
 public class GUI_SignInTest {
